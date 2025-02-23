@@ -62,6 +62,21 @@ The project should now be running on `http://localhost:3000/`.
 ├── README.md
 
 
+## Approach Taken
+
+Component-Based Architecture – The project is structured into reusable components like  Board, Lane, TodoCard and AddTodocard.
+State Management – Local state is managed using useState and useTodos (custom hook).
+API Integration – Created instance of Axios and it is used to interact with the dummy API for fetching, adding, and updating todos.
+Drag & Drop – Implemented using react-beautiful-dnd for a smooth drag-and-drop experience.
+
+
+## Trade-offs & Improvements
+
+Optimistic UI Updates – Currently, todos are updated only after a successful API response. We can improve by updating the UI instantly and rolling back if the request fails.
+Persistent Storage – Right now, todos reset on refresh. Adding local storage or a backend would allow persistent data.
+Better Error Handling – Display proper error messages instead of just logging errors.
+Improved UX – Adding loading indicators and animations for a smoother experience.
+Responsiveness – The UI can be improved for smaller screens, ensuring a better mobile experience by making layouts adapt dynamically.
 
 
 
