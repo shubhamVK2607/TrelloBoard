@@ -26,10 +26,15 @@ Ensure you have the following installed:
    or
    yarn install
 
+## Setup Environment Variables
+
+3. Copy the `.env.example` file and rename it to `.env` 
+   Add the required values in `.env`
+   Save the file
 
 ## Running the Project
 
-3. Start the development server:
+4. Start the development server:
    npm run dev
    or
    yarn dev
