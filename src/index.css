@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app-container{
+    background-color: cyan;
+    height: 100vh;
+}
+
+
+@layer utilities {
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .no-scrollbar {
+      -ms-overflow-style: none; 
+      scrollbar-width: none;
+    }
+  }
+  
+  .scrollbar-thin {
+    scrollbar-width: 4px; 
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px; 
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 116, 255, 0.37); 
+    border-radius: 10px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
