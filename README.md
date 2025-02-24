@@ -84,4 +84,5 @@ Improved UX – Adding loading indicators and animations for a smoother experien
 Responsiveness – The UI can be improved for smaller screens, ensuring a better mobile experience by making layouts adapt dynamically.
 
 
+Note: The update endpoint only works for existing todos. Newly created todos cannot be updated because they are not persisted in the database. The feature to update newly created todo has not been added yet but I can implement it if needed.
 
